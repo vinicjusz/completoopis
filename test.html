@@ -1,0 +1,56 @@
+<!-- Umieść ten kod w odpowiednim miejscu na swojej stronie -->
+<section class="my-custom-section">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    .completo12312312 {
+      display: flex;
+      align-items: center;
+      background-color: #f2f2f2;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .completo12312312 i {
+      font-size: 16px;
+      color: #666;
+      margin-right: 10px;
+      transition: transform 0.2s ease-in-out;
+    }
+    
+    .completo12312312.expanded i {
+      transform: rotate(180deg);
+    }
+    
+    .completo12312312 12311 {
+      font-size: 14px;
+      color: #333;
+    }
+    
+    .completo-details {
+      display: none;
+      background-color: #eee;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    
+    .completo12312312.expanded + .completo-details {
+      display: block;
+    }
+  </style>
+  <div><h4>Cechy dodatkowe:</h4></div>
+  <div class="completo12312312">
+    <i class="material-icons">expand_more</i>
+    <span>SoftSystem</span>
+  </div>
+  <div class="completo-details">
+    <p>Od śniadania aż po przekąskę o północy – jest wiele powodów, aby otworzyć i ponownie zamknąć lodówkę. A w przypadku firmy Liebherr jest to prawdziwa przyjemność: dzięki funkcji SoftSystem drzwi lodówki zamykają się z łagodną amortyzacją, niezawodnie, a przy tym lekko i cicho. Przechowywane na drzwiach wewnętrznych butelki są przy tym bezpiecznie ustawione – nic nie brzęczy, ani się nie chwieje.</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".completo12312312").click(function() {
+        $(this).toggleClass("expanded");
+      });
+    });
+  </script>
+</section>
